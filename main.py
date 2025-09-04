@@ -31,7 +31,7 @@ def main() -> None:
         else:
             print("Please enter a valid integer between 1 and 26.")
 
-        secret_str: str = encrypt(user_str, user_num)
+    secret_str: str = encrypt(user_str, user_num)
 
     print(f"Here's your secret message: {secret_str}")
 
