@@ -19,7 +19,7 @@ def encrypt(string: str, num: int) -> str:
 
     return encrypted_str
 
-def decrypt(string: str) -> str:
+def decrypt(string: str) -> None:
     for i in range(1, 26):
         print(f"key {i}: {encrypt(string, i)}")
 
